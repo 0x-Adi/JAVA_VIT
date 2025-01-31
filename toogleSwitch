@@ -1,0 +1,18 @@
+public class ToggleSwitch {
+    public static void main(String[] args) {
+        // ********** Debug Block Start **********
+
+        boolean switchState = false; // Initial state OFF (false)
+        System.out.println("Initial Switch State: " + (switchState ? "ON" : "OFF"));
+
+        // Toggle the switch
+        switchState = !switchState;
+        System.out.println("After 1st Toggle: " + (switchState ? "ON" : "OFF"));
+
+        // Toggle again
+        switchState = !switchState;
+        System.out.println("After 2nd Toggle: " + (switchState ? "ON" : "OFF"));
+
+        // ********** Debug Block End **********
+    }
+}
